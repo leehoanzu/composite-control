@@ -1,5 +1,0 @@
->>> Warning 202 "D:\TTVXL\composite-control\tv_pickit2_shift_ds18b20.c" Line 8(35,44): Variable never used:   ds18a_tam
->>> Warning 202 "D:\TTVXL\composite-control\TV_PICKIT2_SHIFT_LCD.C" Line 72(21,30): Variable never used:   lcd_so_xx
-      Memory usage:   ROM=16%      RAM=5% - 5%
-      0 Errors,  2 Warnings.
-Build Successful.
