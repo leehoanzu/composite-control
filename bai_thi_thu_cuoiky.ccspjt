@@ -1,0 +1,21 @@
+[PROJECT]
+Target=bai_thi_thu_cuoiky.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=bai_thi_thu_cuoiky.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[bai_thi_thu_cuoiky.c]
+Type=4
+[mru-list]
+1=bai_thi_thu_cuoiky.c
+[Opened Files]
+1=bai_thi_thu_cuoiky.c
+2=tv_pickit2_shift_1_proteus.c
+3=tv_pickit2_shift_1.c
+4=
+[Units]
+Count=1
+1=bai_thi_thu_cuoiky (main)

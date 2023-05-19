@@ -1,0 +1,187 @@
+ÀÄbai_thi_thu_cuoiky
+   ÃÄMAIN  0/340  Ram=1
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄset_up_port_ic_chot  0/30  Ram=0
+   ³  ÃÄsetup_lcd  0/72  Ram=0
+   ³  ³  ÃÄlcd_command  0/22  Ram=1
+   ³  ³  ³  ÀÄlcd_xuat_8bit  0/26  Ram=1
+   ³  ³  ³     ÃÄxuat_lcd20x4  0/16  Ram=2
+   ³  ³  ³     ³  ÀÄxuat_glcd_lcd  0/44  Ram=0
+   ³  ³  ³     ³     ÃÄxuat_1byte  0/42  Ram=3
+   ³  ³  ³     ³     ÃÄxuat_1byte  0/42  Ram=3
+   ³  ³  ³     ³     ÃÄxuat_1byte  0/42  Ram=3
+   ³  ³  ³     ³     ÃÄxuat_1byte  0/42  Ram=3
+   ³  ³  ³     ³     ÀÄmo_ic_74573_a_thong_dl  0/46  Ram=0
+   ³  ³  ³     ÀÄxuat_lcd20x4  0/16  Ram=2
+   ³  ³  ³        ÀÄ*
+   ³  ³  ÃÄlcd_command  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_command  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÀÄlcd_command  0/22  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄkhoi_tao_ds18b20  0/46  Ram=0
+   ³  ³  ÃÄtouch_present  0/78  Ram=2
+   ³  ³  ³  ÃÄ@delay_us1  0/26  Ram=1
+   ³  ³  ³  ÀÄ@delay_us1  0/26  Ram=1
+   ³  ³  ÃÄtouch_write_byte  0/46  Ram=3
+   ³  ³  ³  ÀÄtouch_write_bit  0/112  Ram=1
+   ³  ³  ÃÄtouch_write_byte  0/46  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄtouch_write_byte  0/46  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄtouch_write_byte  0/46  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄtouch_write_byte  0/46  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄtouch_present  0/78  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄtouch_write_byte  0/46  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄtouch_write_byte  0/46  Ram=3
+   ³  ³     ÀÄ*
+   ³  ÃÄlcd_command  0/22  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@const854  0/90  Ram=0
+   ³  ÃÄlcd_data  0/22  Ram=1
+   ³  ³  ÀÄlcd_xuat_8bit  0/26  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄdoc_thoi_gian_tu_realtime  0/214  Ram=0
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+   ³  ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+   ³  ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+   ³  ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+   ³  ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+   ³  ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+   ³  ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+   ³  ³  ÃÄ@I2C_READ_1  0/102  Ram=3
+   ³  ³  ÀÄ@I2C_READ_1  0/102  Ram=3
+   ³  ÃÄthiet_lap_thoi_gian_hien_tai  0/38  Ram=0
+   ³  ÃÄnap_thoi_gian_htai_vao_ds1307  0/134  Ram=0
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÃÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ³  ÀÄ@I2C_WRITE_1  0/108  Ram=1
+   ³  ÃÄdoc_thoi_gian_tu_realtime  0/214  Ram=0
+   ³  ³  ÀÄ*
+   ³  ÃÄdoc_nhiet_do_lm35a  0/276  Ram=0
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@ADDFF  0/620  Ram=16
+   ³  ³  ÃÄ@DIVFF  0/346  Ram=14
+   ³  ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ³  ÃÄ@DIVFF  0/346  Ram=14
+   ³  ³  ÃÄ@MULFF  0/244  Ram=11
+   ³  ³  ÀÄ@SFTOI  0/56  Ram=4
+   ³  ÃÄgiai_ma_ktl  0/132  Ram=4
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÀÄ@DIV1616  0/66  Ram=5
+   ³  ÃÄlcd_hienthi_so_z_toado_xy  0/98  Ram=6
+   ³  ³  ÃÄlcd_goto_xy  0/30  Ram=3
+   ³  ³  ³  ÃÄ@const860  0/30  Ram=0
+   ³  ³  ³  ÀÄlcd_command  0/22  Ram=1
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄlcd_goto_xy  0/30  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@MUL88  0/76  Ram=2
+   ³  ³  ÃÄ@const846  0/122  Ram=0
+   ³  ³  ÃÄlcd_data  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄhien_thi_8led_7doan_quet  0/72  Ram=1
+   ³  ³     ÃÄxuat_8led_7doan_quet_2  0/66  Ram=3
+   ³  ³     ³  ÃÄ@const753  0/34  Ram=0
+   ³  ³     ³  ÃÄxuat_1byte  0/42  Ram=3
+   ³  ³     ³  ÃÄxuat_1byte  0/42  Ram=3
+   ³  ³     ³  ÀÄmo_ic_74573_b_thong_dl  0/46  Ram=0
+   ³  ³     ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³     ÀÄxuat_8led_7doan_quet_tat_led  0/10  Ram=0
+   ³  ³        ÀÄxuat_8led_7doan_quet_1  0/48  Ram=3
+   ³  ³           ÃÄxuat_1byte  0/42  Ram=3
+   ³  ³           ÃÄxuat_1byte  0/42  Ram=3
+   ³  ³           ÀÄmo_ic_74573_b_thong_dl  0/46  Ram=0
+   ³  ÃÄhien_thi_ktl  0/56  Ram=0
+   ³  ³  ÃÄlcd_hienthi_so_z_toado_xy  0/98  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_hienthi_so_z_toado_xy  0/98  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_hienthi_so_z_toado_xy  0/98  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄlcd_hienthi_so_z_toado_xy  0/98  Ram=6
+   ³  ³     ÀÄ*
+   ³  ÃÄlcd_goto_xy  0/30  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_data  0/22  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄgiaima_8led_7doan  0/254  Ram=5
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÀÄ@const686  0/42  Ram=0
+   ³  ÃÄhien_thi_8led_7doan_quet  0/72  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄtouch_present  0/78  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄdoc_giatri_ds18b20  0/60  Ram=0
+   ³  ³  ÃÄtouch_write_byte  0/46  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄtouch_write_byte  0/46  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄtouch_present  0/78  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄtouch_write_byte  0/46  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄtouch_write_byte  0/46  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄtouch_read_byte  0/34  Ram=2
+   ³  ³  ³  ÀÄtouch_read_bit  0/60  Ram=1
+   ³  ³  ÀÄtouch_read_byte  0/34  Ram=2
+   ³  ³     ÀÄ*
+   ³  ÃÄgiai_ma_lcd  0/82  Ram=4
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÀÄ@DIV1616  0/66  Ram=5
+   ³  ÃÄhien_thi_lcd  0/38  Ram=0
+   ³  ³  ÃÄlcd_goto_xy  0/30  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_data  0/22  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄlcd_goto_xy  0/30  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄlcd_data  0/22  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄgiai_ma_hienthi_4led  0/172  Ram=7
+   ³  ³  ÃÄ@SFTOI  0/56  Ram=4
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÀÄxuat_4led_7doan_4so  0/54  Ram=4
+   ³  ³     ÃÄxuat_1byte  0/42  Ram=3
+   ³  ³     ÃÄxuat_1byte  0/42  Ram=3
+   ³  ³     ÃÄxuat_1byte  0/42  Ram=3
+   ³  ³     ÃÄxuat_1byte  0/42  Ram=3
+   ³  ³     ÀÄmo_ic_74573_a_thong_dl  0/46  Ram=0
+   ³  ÃÄthiet_lap_thoi_gian_hien_tai  0/38  Ram=0
+   ³  ÃÄnap_thoi_gian_htai_vao_ds1307  0/134  Ram=0
+   ³  ³  ÀÄ*
+   ³  ÀÄdoc_thoi_gian_tu_realtime  0/214  Ram=0
+   ³     ÀÄ*
+   ÀÄinterrupt_timer1  0/16  Ram=0
